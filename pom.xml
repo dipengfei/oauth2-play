@@ -7,6 +7,7 @@
         <module>auth-server</module>
         <module>res-server</module>
         <module>gateway-server</module>
+        <module>res-client</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
