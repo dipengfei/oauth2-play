@@ -1,0 +1,2 @@
+keytool -genkeypair -alias oauth2play -keyalg RSA -keypass oauth2play -keystore oauth2play.jks -storepass oauth2play
+keytool -list -rfc --keystore oauth2play.jks | openssl x509 -inform pem -pubkey
